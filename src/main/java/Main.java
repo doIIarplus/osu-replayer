@@ -11,17 +11,7 @@ public class Main implements KeyListener{
     public static void main(String[] args) {
         MouseControl mc = new MouseControl();
 
-        /*for (int i = 0; i < 1000; i++)
-        {
-            try {
-                mc.moveMouse(i * 2, 700);
-            } catch(Exception E)
-            {
-                System.out.println("SHIET");
-            }
-        }*/
-
-        Replay replay = new Replay("E:\\Users\\Jasper\\AppData\\Local\\osu!\\Replays\\DollarPlus - senya - Yureru Koi wa Nami no Gotoku [Catharsis] (2016-02-14) Osu.osr");
+        Replay replay = new Replay("fileName");
 
         String[] replayDataArray = replay.replayData.split(",");
 
